@@ -17,6 +17,7 @@ function App() {
         setMovie(finalData.Search); 
       } else {
         console.error("Movies not found");
+        alert("Movies not found")
       }
     } 
     catch (error) {
