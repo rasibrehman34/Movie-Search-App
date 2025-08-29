@@ -53,7 +53,7 @@ function App() {
             <div key={index} className="card">
               <img width={200} src={movie.Poster} alt='poster not found' />
               <div className="details">
-                <p>{movie.Title}</p>
+                <h3>{movie.Title}</h3>
                 <p>{movie.Year}</p>
               </div>
             </div>
