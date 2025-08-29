@@ -8,7 +8,7 @@ function App() {
 
   const fetchApi = async (search) => {
     if (!search) alert("Enter a Movie Name")
-    const url = `https://www.omdbapi.com/?apikey=6d88ed66&s=${search}`
+    const url = `http://www.omdbapi.com/?apikey=6d88ed66&s=${search}`
     try {
       const response = await fetch(url)
       const finalData = await response.json()
